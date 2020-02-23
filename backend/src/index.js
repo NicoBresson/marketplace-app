@@ -33,6 +33,8 @@ server.express.use(async (req, res, next) => {
   next();
 })
 
+console.log(process.env.FRONTEND_URL)
+
 
 server.start({
   cors: {
